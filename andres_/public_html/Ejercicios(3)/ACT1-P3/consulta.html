@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo de Frontend</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+li p {
+  margin: 0;
+  color: #555;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Front End - Ejemplo básico.</h1>
+</header>
+<main>
+    <h2>Consulta</h2>
+    <ol>
+        <li>
+            <p><strong>¿Qué es un recurso frontend y cuál es su función en el desarrollo web?</strong></p>
+            <p>Un recurso frontend es cualquier tecnología, herramienta o conjunto de archivos utilizados para construir la interfaz de usuario de un sitio web o aplicación web. Su función principal es la de permitir que los usuarios interactúen con el contenido y las funcionalidades de una página web de manera intuitiva y atractiva.</p>
+        </li>
+        <li>
+            <p><strong>Principales tecnologías o herramientas utilizadas en el desarrollo frontend y su importancia</strong></p>
+            <ul>
+                <li><strong>HTML:</strong> Es el lenguaje de marcado estándar para crear páginas web. Define la estructura y el contenido de una página web.</li>
+                <li><strong>CSS:</strong> Es un lenguaje de diseño utilizado para describir la presentación de un documento HTML. Permite controlar el aspecto visual y la disposición de los elementos en una página web.</li>
+                <li><strong>JavaScript:</strong> Es un lenguaje de programación que se utiliza para agregar interactividad y dinamismo a las páginas web. Permite realizar acciones como validar formularios, animar elementos y realizar peticiones al servidor sin necesidad de recargar la página.</li>
+            </ul>
+            <p>Estas tecnologías son fundamentales en el desarrollo frontend porque trabajan en conjunto para crear una experiencia de usuario cohesiva y atractiva.</p>
+        </li>
+        <li>
+            <p><strong>Concepto de responsividad en el diseño web y técnicas para lograrlo</strong></p>
+            <p>La responsividad en el diseño web se refiere a la capacidad de un sitio web para adaptarse y verse correctamente en diferentes dispositivos y tamaños de pantalla, como computadoras de escritorio, tabletas y teléfonos móviles.</p>
+            <ul>
+                <li><strong>Media queries:</strong> Permiten aplicar estilos CSS específicos según las características del dispositivo, como el ancho de la pantalla.</li>
+                <li><strong>Flexbox y Grid:</strong> Layouts CSS que permiten crear diseños flexibles y fluidos que se ajustan automáticamente al tamaño de la pantalla.</li>
+            </ul>
+        </li>
+        <li>
+            <p><strong>Diferencia entre HTML, CSS y JavaScript en el contexto del desarrollo frontend</strong></p>
+            <ul>
+                <li><strong>HTML:</strong> Define la estructura y el contenido de una página web mediante etiquetas de marcado.</li>
+                <li><strong>CSS:</strong> Controla el aspecto visual y la presentación de una página web, aplicando estilos a los elementos HTML.</li>
+                <li><strong>JavaScript:</strong> Agrega interactividad y dinamismo a una página web, permitiendo manipular el contenido y responder a acciones del usuario.</li>
+            </ul>
+        </li>
+        <li>
+            <p><strong>Importancia de la accesibilidad en el diseño frontend y prácticas para mejorarla</strong></p>
+            <p>La accesibilidad en el diseño frontend es crucial para garantizar que todas las personas, independientemente de sus habilidades o discapacidades, puedan acceder y utilizar un sitio web de manera efectiva.</p>
+            <ul>
+                <li><strong>Uso de etiquetas semánticas HTML:</strong> Para una estructura clara y significativa.</li>
+                <li><strong>Accesibilidad de elementos interactivos:</strong> Asegurarse de que los elementos interactivos sean accesibles mediante teclado y dispositivos de asistencia, como lectores de pantalla.</li>
+            </ul>
+        </li>
+        <li>
+            <p><strong>Concepto de frameworks frontend y ejemplos</strong></p>
+            <p>Los frameworks frontend son conjuntos de herramientas y bibliotecas predefinidas que facilitan y agilizan el desarrollo de aplicaciones web al proporcionar estructuras y patrones de diseño preestablecidos.</p>
+            <ul>
+                <li><strong>React.js:</strong> Desarrollado por Facebook, es una biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas y dinámicas.</li>
+                <li><strong>Angular:</strong> Desarrollado por Google, es un framework de JavaScript que facilita la creación de aplicaciones web de una sola página (SPA) mediante el uso de componentes y enlaces de datos bidireccionales.</li>
+            </ul>
+            <p>Los desarrolladores utilizan frameworks frontend porque les permiten ahorrar tiempo y esfuerzo al proporcionar soluciones probadas y predefinidas para problemas comunes de desarrollo web.</p>
+        </li>
+        <li>
+            <p><strong>Diferencia entre un CMS y un framework en el contexto del desarrollo frontend</strong></p>
+            <ul>
+                <li><strong>CMS (Sistema de Gestión de Contenidos):</strong> Es una plataforma de software que permite crear, administrar y publicar contenido en línea. Ejemplos incluyen WordPress y Drupal. Los CMS están diseñados principalmente para la gestión de contenido y suelen ofrecer una interfaz de administración visual para agregar y editar contenido.</li>
+                <li><strong>Framework:</strong> Proporciona una estructura y conjunto de herramientas para el desarrollo de aplicaciones web, pero no incluye funcionalidades específicas de gestión de contenido. Los frameworks, como React y Angular, se centran en la construcción de interfaces de usuario interactivas y dinámicas, dejando la gestión de contenido a aplicaciones personalizadas o sistemas externos.</li>
+            </ul>
+        </li>
+    </ol>
+<br/>
+<p>Quieres devolverte? Dale click al boton</p>
+<button onclick="location.href='index.html'">Devolverse</button>
+</main>
+</body>
+</html>

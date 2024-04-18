@@ -1,0 +1,11 @@
+crear un formulario que me permita crear a ese dueño de ese vehiculo (base de datos = placa, tipo de vehiculo, nombre del propietario,etc)
+al tener eso, debe de haber otro formulario para buscar propietario (nueva página con placa o cedula).
+
+Cuando se pueda buscar debe de haber otra pestaña para modificar (nombre, multas).
+
+Tener un botón de eliminar por si el usuario quiere borrar ese carro o propietario (dependiendo de sus motivos)
+
+
+registro debe de tener = cedúla de ciudadania, nombre de propietario, licencia de tránsito, licencia de conducción, SOAT, Tecnico mecánica, marca de carro/moto, modelo de carro/moto, numero de placa, cilindraje, num de motor, num de chasis
+clase de vehiculo, color, multas, seguro moto/carro
+
